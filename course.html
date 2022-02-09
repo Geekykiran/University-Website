@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collage Website Design</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="/images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <span class="bi bi-x-circle-fill" onclick="hideMenu()"></span>
+
+        <ul>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+
+        </ul>
+      </div>
+      <span class="bi bi-arrow-left-circle-fill" onclick="showMenu()"></span>
+    </nav>
+      <h1>Our Courses</h1>
+  </section>
+  <section class="course">
+    <h1>Courses we Offer</h1>
+    <p> The purpose of a university is to be the guardian of reason, inquiry and philosophical openness, preserving pure
+      inquiry from dominant public opinions.</p>
+
+
+    <div style="text-align: center" class="row">
+      <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>In Andhra Pradesh, EAMCET is the main Entrance Test which leads to the admission in Engineering, Medicine,
+          Agriculture, Veterinary Science, Pharmacy.</p>
+      </div>
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p>In Andhra Pradesh, EAMCET is the main Entrance Test which leads to the admission in Engineering, Medicine,
+          Agriculture, Veterinary Science, Pharmacy.</p>
+      </div>
+      <div class="course-col">
+        <h3>PostGraduation</h3>
+        <p>In Andhra Pradesh, EAMCET is the main Entrance Test which leads to the admission in Engineering, Medicine,
+          Agriculture, Veterinary Science, Pharmacy.</p>
+      </div>
+    </div>
+  </section>
+<!-- ======facilities=== -->
+<section class="facilities">
+  <h1>Our Facilities</h1>
+  <p>online Journals and other online resources supporting all aspects of studies and research. There are multiple
+    institutional libraries apart from a large Central Library with acts as a learning resource hub for the students &
+    faculty members.</p>
+  <div class="row">
+
+    <div class="facilities-col">
+      <img src="images/library.png" alt="png">
+      <h3>World Class Library</h3>
+      <p>World Public Library’s Millennium Collection offers millions of books by the greatest writers of the last
+        1,000 years, works from America, Asia, Africa, and Europe, in over 300 different languages. </p>
+    </div>
+
+    <div class="facilities-col">
+      <img src="images/basketball.png" alt="png">
+      <h3>Largest Playground</h3>
+      <p>We have facility for indoor games such as chess, carrom, Table Tennis, shuttle, badminton and outdoor
+        facilities for football, hockey, kabaadi, volleyball, and cricket & basket ball. </p>
+    </div>
+
+
+    <div class="facilities-col">
+      <img src="images/cafeteria.png" alt="png">
+      <h3>Tasty and Healthy Food</h3>
+      <p>College canteen is one of the most happening places in the campus. Of course, it is known for its savory
+        food, but it is also the place where you make some of the best memories of your college life. </p>
+    </div>
+  </div>
+
+</section>
+
+<!-- Footer -->
+<section class="footer">
+  <h4>ABOUT US</h4>
+  <p>e have facility for indoor games such as chess, carrom, Table Tennis, shuttle, badminton and outdoor
+    facilities for football, hockey, kabaadi, volleyball, and cricket & basket ball.<br> e have facility for indoor games such as chess, carrom, Table Tennis, shuttle, badminton and outdoor
+    facilities for football, hockey, kabaadi, volleyball, and cricket & basket ball. </p>
+    <div class="icons">
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-linkedin"></i>
+    </div>
+</section>
+
+
+
+
+
+  <!-- small javascript for menu bar in smaller devices -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
